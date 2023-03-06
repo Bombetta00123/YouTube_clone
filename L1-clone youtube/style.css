@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+#barralaterale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+#main {
+    width: 100%;
+}
+#barrainalto {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#contenuto {
+    height:100%;
+}
+.icon {
+    padding: 1.4em;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+#barralaterale p {
+    font-size:0.7em;
+    margin:0;
+}
+#barralaterale ion-icon {
+    font-size: 1.3em;
+}
+#logo {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+input {
+    height: 17px;
+}
+button {
+    height: 23px;
+}
+
+    
+#search  {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.icon-r {
+    display: flex;
+
+}
+.icon-r ion-icon {
+    padding: 1em;
+    font-size:1.3em;
+}
+#microf {
+    padding: 0.5em;
+    font-size: 1.3em;
+    display: flex;
+}
+.thumb {
+    width: 350px;
+}
+.logo_epicode {
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin: 0;
+    margin-right: 10px
+}
+.testo {
+    display:flex;
+    flex-direction: column;
+}
+.title {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.description {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 0.8em;
+}
+.image {
+    height: 240px;
+    width: 350px;
+}
+#contenuto {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    justify-content: space-around;
+}
